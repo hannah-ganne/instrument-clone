@@ -1,0 +1,29 @@
+nav ul {
+    display: flex;
+}
+
+.nav-item {
+    font-size: 0.85rem;
+    margin-left: 2.7rem;
+    letter-spacing: 0.05rem;
+}
+
+.nav-item::before {
+    content: '[';
+    margin-right: 0.6rem;
+    color: var(--gray);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item::after {
+    content: ']';
+    margin-left: 0.6rem;
+    color: var(--gray);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover::before, .nav-item:hover::after {
+    opacity: 1;
+}

@@ -1,9 +1,9 @@
 import '../utils/styles/Nav.css'
 
-export default function Nav({ children }) {
+export default function Nav({ children, flexDir="" }) {
     return (
         <nav>
-            <ul>
+            <ul className={flexDir}>
                 {children}
             </ul>
         </nav>

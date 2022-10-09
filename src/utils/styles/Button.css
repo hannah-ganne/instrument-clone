@@ -1,0 +1,23 @@
+button {
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    outline: none;
+    letter-spacing: 0.1rem;
+}
+
+button::after {
+    content: url('../../assets//images//arrow-right.svg');
+    margin-left: 1rem;
+}
+
+.btn-footer {
+    margin-right: 2.5rem;
+    background-color: transparent;
+    border: 1px solid #5d5d5d;
+    color: var(--white)
+}

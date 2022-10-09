@@ -1,4 +1,4 @@
-import "../utils/styles/Section/css"
+import "../utils/styles/Section.css"
 
 export default function Section({ children }) {
     return (

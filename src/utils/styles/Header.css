@@ -1,0 +1,16 @@
+header {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3rem 3rem;
+}
+
+header p {
+    font-family: 'BenchNine', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-stretch: ondensed;
+}

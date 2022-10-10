@@ -9,7 +9,7 @@ section .video-container {
     grid-column-end: span 23;
 }
 
-section h1 {
+section h1, .text-btn-container h2.ft-lg {
     font-size: 3.3rem;
 }
 
@@ -67,5 +67,8 @@ section img {
     align-items: flex-start;
     justify-content: center;
     letter-spacing: 0.1rem;
+}
+
+.line-relaxed {
     line-height: 2.5rem;
 }

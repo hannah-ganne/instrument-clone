@@ -26,13 +26,13 @@ function App() {
                 </Section>
                 <Section>
                     <img src={ceo} className="img-left" alt="picture of Kara Place next CEO" />
-                    <div className="text-btn-container text-right">
+                    <div className="text-btn-container text-right line-relaxed">
                         <h3>It is with great excitement that we announce Kara Place as Instrument's next CEO.</h3>
                         <Button label="Read More" className="btn" />
                     </div>
                 </Section>
                 <Section>
-                    <div className="text-btn-container text-left">
+                    <div className="text-btn-container text-left line-relaxed">
                         <h3>We're proud to be recognized as a Best Workplace for Women Innovators by Fast Company.</h3>
                         <Button label="Learn More" className="btn" />
                     </div>
@@ -40,7 +40,7 @@ function App() {
                 </Section>
                 <Section>
                     <img src={phone} className="img-left" alt="picture of a hand holding a mobile phone" />
-                    <div className="text-btn-container text-right">
+                    <div className="text-btn-container text-right line-relaxed">
                         <h3>As a full-service partner to the world's most ambitious companies, we create transformational change through best-in-class digital products and communications</h3>
                         <Button label="What we do" className="btn" />
                     </div>
@@ -69,6 +69,12 @@ function App() {
                 </Section>
                 <Section>
                     <Banner gridColumnStart="6" gridColumnEnd="span 15" />
+                </Section>
+                <Section>
+                    <div className="text-btn-container" style={{ gridColumnStart: '7', gridColumnEnd: 'span 13'}}>
+                        <h2 className="ft-lg">We'd love to be your partner</h2>
+                        <Button label="Get in touch" className="btn center" />
+                    </div>
                 </Section>
             </Main>
             <Footer />

@@ -1,0 +1,24 @@
+.banner {
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.slider {
+    white-space: nowrap;
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+}
+
+.logo {
+    display: inline-block;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1
+    }
+}

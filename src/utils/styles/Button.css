@@ -8,6 +8,13 @@ button {
     padding: 1rem 2rem;
     outline: none;
     letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--gray);
+    transition: all 0.3s ease-in-out;
 }
 
 button::after {
@@ -15,13 +22,20 @@ button::after {
     margin-left: 1rem;
 }
 
-.btn {
-    margin-top: 3rem;
-}
-
 .btn-footer {
+    margin-top: 0;
     margin-right: 2.5rem;
     background-color: transparent;
     border: 1px solid #5d5d5d;
     color: var(--white)
+}
+
+button.btn-footer:hover {
+    border: 1px solid #414141;
+    color: #5d5d5d;
+    transition: all 0.3s ease-in-out;
+}
+
+.center {
+    align-self: center;
 }

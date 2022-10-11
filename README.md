@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Frontend Pratice - Instrument Home Page Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a clone project of the home page of [Instrument](https://www.instrument.com/) suggested by [Frontend Practice](https://www.frontendpractice.com/projects/instrument). Frontend Practice is a collection of real and carefully chosen websites for developers to recreate as a way to improve and test their skills. [Frontend Practice FAQ](https://www.frontendpractice.com/faq)
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Through this challenge, I practiced:
+- creating a minimal layout using both Flexbox and CSS Grid
+- alternating sections with fade-in animation using intersection observer
+- creating a sticky header on scroll-up 
 
-### `npm test`
+### Screenshot
+<img width="1434" alt="Screenshot 2022-10-11 at 12 11 18" src="https://user-images.githubusercontent.com/48105337/195065347-808fe3c1-9370-4390-bf19-adde5b55f303.png">
+<img width="1434" alt="Screenshot 2022-10-11 at 12 11 32" src="https://user-images.githubusercontent.com/48105337/195065380-2309ef6e-7f6c-484d-9575-1f9c3989d57f.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Live Site URL: [Click here to see the cloned version of Instrument home page live](https://hannah-ganne.github.io/instrument-clone)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## My process
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://reactjs.org/) - JS library
+- Flexbox
+- CSS Grid
+- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer)
+- [Material Icons](https://mui.com/material-ui/material-icons/)
 
-### `npm run eject`
+### Continued development
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- I can improve this project by adding smoother fade-in transition for the logos banner.
+- I can improve this project by adding dark/light mode options.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Useful resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Frontend Practice](https://www.frontendpractice.com/projects) - For more projects like this one. Definitely worth exploring!
+- [How to Trigger a Function when Scrolling to an Element in React Intersection Observer](https://spacejelly.dev/posts/how-to-trigger-a-function-when-scrolling-to-an-element-in-react-intersection-observer/) - This is the article which helped me put in place intersection observer for fade-in effect for alternating sections.

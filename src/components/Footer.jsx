@@ -29,9 +29,15 @@ export default function Footer() {
                 <div>
                     <Button label="NEWSLETTER" className="btn-footer" />
                     <div>
-                        <InstagramIcon sx={{ marginRight: 5 }} />
-                        <TwitterIcon sx={{ marginRight: 5 }} />
-                        <LinkedInIcon />
+                        <a href="#">
+                            <InstagramIcon sx={{ marginRight: 5 }} />
+                        </a>
+                        <a href="#">
+                            <TwitterIcon sx={{ marginRight: 5 }} />   
+                        </a>
+                        <a href="#">
+                            <LinkedInIcon />  
+                        </a>
                     </div>
                 </div>
             </footer>

@@ -20,7 +20,12 @@ This is a clone project of the home page of [Instrument](https://www.instrument.
 Through this challenge, I practiced:
 - creating a minimal layout using both Flexbox and CSS Grid
 - alternating sections with fade-in animation using intersection observer
-- creating a sticky header on scroll-up 
+- creating a sticky header on scroll-up
+
+From the analysis to the deployment of the project, it took me approximately 6 hours.
+- analysis, header, footer : 2h40
+- main: 2h20
+- intersection observer, sticky header, deployment: 1h
 
 ### Screenshot
 <img width="1434" alt="Screenshot 2022-10-11 at 12 11 18" src="https://user-images.githubusercontent.com/48105337/195065347-808fe3c1-9370-4390-bf19-adde5b55f303.png">
